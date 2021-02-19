@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(to right bottom, #5b8b79, #274046);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #e6dada, #274046);
+}
+
+a {
+  text-decoration: none;
+  color: #354548;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.app-container {
+  padding-top: 50px;
+}
+.app-row {
+  height: 86vh;
+}
+
+.app-main-content {
+  background-image: linear-gradient(to right bottom, #8ee9d2, #feb47b);
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar {
+  background-color: rgba(145, 196, 202, 0.5);
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+.sidebar-avatar {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.sidebar-icon {
+  width: 25px;
+  height: 25px;
+}
+.sidebar-name {
+  font-family: kaushan Script;
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
+.sidebar-name > span {
+  color: #ff4a57;
+}
+
+.sidebar-item {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1.05rem;
+  border-radius: 30px;
+}
+
+.sidebar-title {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+}
+
+.sidebar-social-icons {
+}
+
+.sidebar-contact {
+  background-color: rgba(199, 199, 196, 0.5);
+  padding: 2px 0;
+  border-radius: 8px;
+  margin: 20px -15px;
+}
+
+.sidebar-email {
+  background-image: linear-gradient(to right bottom, #e6dada, #274046);
+  border-radius: 30px;
+  color: #fff;
+  margin: 16px 25px 0px;
+  cursor: pointer;
+  transition: all 3s linear;
+}
+
+.sidebar-email:hover {
+  transform: scale(1.08);
+}
+.sidebar-resume {
+}
+
+.sidebar-github:hover,
+.sidebar-resume:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 991px) {
+  .app-main-content {
+    margin: 30px 0;
+  }
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-active {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #354548;
+  border-bottom: 3px solid #ff4a57;
+}
+.navbar-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #354548;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  background: -webkit-linear-gradient(#108dc7, #ef8e38);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  padding: 20px;
+  margin: 10 -10px;
+  background-image: linear-gradient(to right bottom, #ff7f5f60, #feb47b86);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.name{
+  color: #ff4a57;
+}
+.about-inner {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 20px;
+  color: rgb(12, 14, 26);
+  margin: 10px 0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+.about-container {
+  background-color: #dbdddf5d;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+.about-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #f1f1f1;
+  margin-left: 10px;
+}
+.skill-card {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.skill-card-body {
+  margin-left: 15px;
+}
+.skill-card-content {
+  margin: 0;
+  font-size: 16px;
+  color: #6e7e91;
+}
+
+.skill-card-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.resume {
+  padding-top: 20px;
+}
+
+.resume-card-heading,
+.resume-language-heading {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #354538;
+}
+
+.resume-card-body {
+  margin-top: 10px;
+}
+.date{
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+  color: #6e7e91;
+  font-size: small;
+}
+.resume-card-title {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color: #381416;
+}
+
+.resume-card-name{
+  font-weight: 400;
+  font-family: 'Lato',sans-serif;
+}
+
+.resume-card-details {
+  font-size: 0.9rem;
+  padding-top: 20px;
+}
+
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.bar-icon {
+  width: 15px;
+  height: 15px;
+}
+.bar-wrapper {
+  background-image: linear-gradient(90deg, #fc354c, #0abfbc);
+  border-radius: 8px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.projects {
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.project-card-wrapper {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  border: 1px solid #fc354c;
+  transition: transform 0.3s;
+}
+.project-card-image:hover {
+  transform: scale(1.05);
+}
+
+.project-card-icon {
+  width: 25px;
+  height: 25px;
+}
+.project-card-title {
+  margin-top: 12px;
+  font-size: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.project-navbar {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.project-navbar > div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+h5 {
+  margin-left: 5px;
+}
